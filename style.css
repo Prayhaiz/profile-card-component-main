@@ -57,11 +57,13 @@ img {
 .diagonal__gradient img:first-child {
     margin-top: -78%;
     margin-left: -35%;
+    z-index: 1;
 }
 
 .diagonal__gradient img:last-child {
     margin-bottom: -110%;
     margin-left: 42.5%;
+    z-index: 3;
 }
 
 .box {
@@ -182,15 +184,15 @@ transform: scale(1.12);
     }
     
 }
-@media screen (max-width: 1200px;) {
+@media screen (max-width: 840px;) {
     .diagonal__gradient img:first-child {
-        margin-top: -84%;
-        margin-left: -51%;
+        margin-top: -66%;
+        margin-left: -20%;
     }
     
     .diagonal__gradient img:last-child {
-        margin-bottom: -72%;
-        margin-left: 51.5%;
+        margin-bottom: -81%;
+        margin-left: 47.5%;
     }
     
 }
